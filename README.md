@@ -1,4 +1,4 @@
-# Hệ thống tưới cây tự động sử dụng mạch Arduino
+# Hệ thống tưới cây tự động đơn giản sử dụng mạch Arduino
 ## Chức năng
 - Tự động tưới cây khi cây thiếu nước
 - Hệ thống sẽ tự động dừng khi bơm đủ nước cho cây
