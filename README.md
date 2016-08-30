@@ -11,6 +11,7 @@
 - 01 Led 5mm màu vàng
 - 03 điện trở 220Ω
 - 01 Cảm biến độ ẩm
+- 01 Module relay
 - 01 Nguồn cho máy bơm (6,9,12v tùy thuộc vào máy bơm)
 - 01 Bơm mini
 - 01m Ống dẫn nước cho máy bơm.
