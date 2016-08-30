@@ -1,8 +1,14 @@
+/**
+ * Automatic Watering using Arduino
+ * Cao Hieu 2016
+ */ 
+ 
 int const SENSOR_MH_D_PIN = 4;
 int const SENSOR_MH_A_PIN = A0;
 int const T_RELAY_PIN = 2;
 
-int const TIME_TO_GET_MOISURE_SAMPLE = 5000; //5s
+int const TIME_TO_GET_SAMPLE = 5000; //5s
+int const SAMPLE_TIME = 500; //0.5 s
 
 int const LED_PIN = 13;
 
@@ -66,11 +72,9 @@ void wateringProcess(){
   }
 }
 
-int const SAMPLE_TIME = 500; //0.5 s
-
 int getSensorSampleValue(){
   int value = 0;
-  int t = TIME_TO_GET_MOISURE_SAMPLE/ SAMPLE_TIME;
+  int t = TIME_TO_GET_SAMPLE/ SAMPLE_TIME;
   int total = 0;
   for(int i =0; i < t ; i++){
     total += analogRead(SENSOR_MH_A_PIN);
