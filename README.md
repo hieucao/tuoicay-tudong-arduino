@@ -6,6 +6,8 @@
 
 ## Chuẩn bị thiết bị
 - 01 Arduino UNO
+- 01 Breadboard
+- Dây điện
 - 01 Led 5mm màu đỏ
 - 01 Led 5mm màu xanh
 - 01 Led 5mm màu vàng
